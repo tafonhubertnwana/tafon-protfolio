@@ -25,7 +25,7 @@ const Mobile = () => {
             <p className='py-2'>Project</p>
             <h4>Overview</h4>
             <p className='py-4'>
-            This e-commerce website is your one-stop shop for all things iPhone. Whether you are looking for the latest model or a classic favorite, we have a wide selection of iPhones to suit your needs and budget.
+            This e-commerce website is your one-stop shop for all things iPhone. Whether you&#39;re looking for the latest model or a classic favorite, we have a wide selection of iPhones to suit your needs and budget.
             </p>
             <button className='px-8 py-2 mt-4 mr-8 bg-[#31473a] font-bold text-white'><Link href='/'>Demo</Link> </button>
             <button className='px-8 py-2 mt-4 bg-[#a7b8ae] font-bold'><Link href='https://github.com/tafonhubertnwana/react_e-website'>Code</Link></button>
