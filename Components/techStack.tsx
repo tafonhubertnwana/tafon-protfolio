@@ -51,8 +51,8 @@ const TechStack = () => {
           <div>
             <div className="w-full px-4 sm:px-6 md:px-8 lg:px-10 py-12 ">
               <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 sm:gap-8 md:gap-10 lg:gap-12">
-                {technologies.map((tech) => (
-                  <div className="flex flex-col py-4 items-center shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:text-slate-300">
+                {technologies.map((tech, index) => (
+                  <div key={index} className="flex flex-col py-4 items-center shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:text-slate-300">
                     <div className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 flex items-center justify-center'>
                       <Image src={tech.icon} alt={tech.name} className='max-full max-h-full' />
                     </div>

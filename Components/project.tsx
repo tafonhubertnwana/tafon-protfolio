@@ -6,7 +6,8 @@ import quiz from '@/public/assets/e-quiz.png'
 import portfolio from '@/public/assets/portfolio.png'
 import Link from 'next/link'
 import line from '@/public/assets/line.png'
-import ProjectItem from '@/components/projectItems'
+import ProjectItem from './projectItems'
+
 
 
 
