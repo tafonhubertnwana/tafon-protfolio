@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-
+import { StaticImageData } from 'next/image';
 // Define the interface for component props
 interface ProjectItemProps {
   title: string;
-  backgroundImg: string;
+  backgroundImg: StaticImageData;
   projectUrl: string;
   type: string;
 }
@@ -16,7 +16,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ title, backgroundImg, project
     <div>
       <div className="relative group flex items-center justify-center h-auto w-full rounded-xl p-4 hover:bg-slate-900 hover:dark:bg-slate-400 shadow-xl shadow-gray-400">
         <Image
-          src={backgroundImg}
+          src={backgroundImg.src}
           alt={title} // Use the title for the alt attribute to be more descriptive
           className="rounded-xl group-hover:opacity-10"
           layout="fill" // Ensure proper layout for Next.js Image component
