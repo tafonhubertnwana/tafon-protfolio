@@ -1,10 +1,10 @@
 'use client'
-import TechStack from '../Components/techStack'
-import About from '../Components/about'
-import Project from '../Components/project'
-import Contact from '../Components/contact'
-import Experience from '../Components/experience'
-import Main from '@/Components/main'
+import TechStack from '../components/techStack'
+import About from '../components/about'
+import Project from '../components/project'
+import Contact from '../components/contact'
+import Experience from '../components/experience'
+import Main from '@/components/main'
 import { useState } from 'react'
 
 export default function Home() {
