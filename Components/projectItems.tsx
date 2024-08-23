@@ -26,9 +26,9 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ title, backgroundImg, project
           <h3 className="text-2xl text-white tracking-wider text-center dark:text-black">{title}</h3>
           <p className="pb-4 pt-2 text-white text-center dark:text-black">{type}</p>
           <Link href={projectUrl}>
-            <a className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer dark:bg-slate-800 dark:text-white">
+            <button className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer dark:bg-slate-800 dark:text-white">
               More Info
-            </a>
+            </button>
           </Link>
         </div>
       </div>
