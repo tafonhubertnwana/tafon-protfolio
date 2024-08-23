@@ -13,6 +13,7 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import { sendEmail } from './sendEmail';
 
+
 const Contact = () => {
 
   const [name , setName] = useState("")
