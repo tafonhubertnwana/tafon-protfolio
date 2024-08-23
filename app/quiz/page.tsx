@@ -26,7 +26,7 @@ const Quiz = () => {
             <p className='py-2'>Project</p>
             <h4>Overview</h4>
             <p className='py-4'>
-            Get ready to put your brain to the test with this interactive quiz game! Whether you're a trivia enthusiast or just looking for a fun way to learn, this project offers an engaging experience.
+            Get ready to put your brain to the test with this interactive quiz game! Whether youre a trivia enthusiast or just looking for a fun way to learn, this project offers an engaging experience.
             </p>
             <button className='px-8 py-2 mt-4 mr-8 bg-[#31473a] font-bold text-white'><Link href='https://e-quiz-game.netlify.app/'>Demo</Link> </button>
             <button className='px-8 py-2 mt-4 bg-[#a7b8ae] font-bold'><Link href='https://github.com/tafonhubertnwana/quiz-game'>Code</Link></button>

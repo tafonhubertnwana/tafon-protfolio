@@ -21,8 +21,8 @@ export default function ContactFormEmail({
           <Text>Message:</Text>
           <Text>{message}</Text>
           <Hr />  
-          <Text>The sender's email is: {senderEmail}</Text>
-          <Text>The sender's name is: {senderName}</Text>
+          <Text>The sender&#39;s email is: {senderEmail}</Text>
+          <Text>The sender&#39;s name is: {senderName}</Text>
         </Section>
       </Container>
     </Body>
